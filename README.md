@@ -37,7 +37,6 @@ nltk.download('punkt')
 ├── train.ipynb           # Training notebook
 ├── intents.json          # Intent patterns and responses
 ├── model.h5              # Trained model
-├── words.pkl             # Vocabulary data
 ├── labels.pkl            # Intent labels
 └── README.md
 ```
