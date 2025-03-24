@@ -1,7 +1,9 @@
 # Chatbot-Intent-Classifier
 
 A simple chatbot trainer using NLTK and TensorFlow for intent recognition and response generation.
+
 ---
+
 ## Features
 - Natural Language Processing with NLTK
 - Neural Network model using TensorFlow/Keras
@@ -9,12 +11,14 @@ A simple chatbot trainer using NLTK and TensorFlow for intent recognition and re
 - Stemming and tokenization
 - JSON-based intent configuration
 ---
+
 ## Prerequisites
 - Python 
 - NLTK
 - TensorFlow 
 - NumPy
 ---
+
 ## Installation
 1. Clone the repository:
 ```bash
@@ -31,6 +35,7 @@ import nltk
 nltk.download('punkt')
 ```
 ---
+
 ## File Structure
 ```
 .
@@ -41,6 +46,7 @@ nltk.download('punkt')
 └── README.md
 ```
 ---
+
 ## Usage
 1. Prepare your ```intents.json``` file with patterns and responses:
 ```
@@ -64,6 +70,7 @@ jupyter notebook train.ipynb
 - Save the trained model and vocabulary files
 
 ---
+
 ## Model Architecture
 ```
 model = Sequential([
